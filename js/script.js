@@ -8,7 +8,7 @@ function init(){
 function showText() {
   var textbox = document.getElementById('entryinput');
   var headline = document.getElementById('textoutput')
-  alert("Anisa McKinney: ")   
+  alert("Anisa McKinney: " + textoutput)   
   headline.innerHTML = textbox.value;
 }
 
